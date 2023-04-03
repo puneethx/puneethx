@@ -24,7 +24,4 @@ I'm Puneeth Reddy,<br>I'm pursuing B.Tech in Vellore Institute of Technology,<br
 ### 😂 Random Dev Meme
 <img src="https://rm.up.railway.app/" width="512px"/>
 
----
-[![](https://visitcount.itsvg.in/api?id=puneethx&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
