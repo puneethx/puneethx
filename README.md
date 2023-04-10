@@ -1,5 +1,7 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=1000&color=6CC644&center=true&vCenter=true&width=435&lines=Welcome+Buddy;Puneeth+Reddy+Here+!!!;Hope+you+will+takeaway+something+...)](https://git.io/typing-svg)
+
 # 💫 About Me:
-I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>I'm a Web Developer and UI/UX designer,<br> You can contact me at @puneethreddyt2004@gmail.com
+🔭 I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>🌱I'm currently learning Web Development, I’m currently working on StressAway, <br>👯 You can contact me at @puneethreddyt2004@gmail.com
 
 
 ## 🌐 Socials:
@@ -20,8 +22,5 @@ I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of 
 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=puneethx&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-### 😂 Random Dev Meme
-<img src="https://rm.up.railway.app/" width="512px"/>
 
 
