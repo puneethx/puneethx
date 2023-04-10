@@ -1,5 +1,5 @@
 # 💫 About Me:
-I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>I'm a Web Developer and UI/UX designer
+I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>I'm a Web Developer and UI/UX designer,<br> You can contact me at @puneethreddyt2004@gmail.com
 
 
 ## 🌐 Socials:
