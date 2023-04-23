@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=1000&color=6CC644&center=true&vCenter=true&width=435&lines=Welcome+Buddy;Puneeth+Reddy+Here+!!!;Hope+you+will+takeaway+something+...)](https://git.io/typing-svg)
 
 # 💫 About Me:
-🔭 I'm Puneeth Reddy,<br>pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>🌱I'm currently learning Web Development, working on a project named StressAway, <br>👯 You can contact me at @puneethreddyt2004@gmail.com
+🔭 I'm Puneeth Reddy,<br>🍁pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>🌱I'm currently learning Web Development, working on a project named StressAway, <br>👯 You can contact me at @puneethreddyt2004@gmail.com
  
 
 # 💻 Tech Stack:
