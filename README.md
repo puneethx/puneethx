@@ -1,6 +1,7 @@
 <img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=1000&color=6CC644&center=true&vCenter=true&width=700&lines=Welcome+Buddy;Puneeth+Reddy+Here+!!!;Hope+you+will+takeaway+something+...)](https://git.io/typing-svg)
+<br/>
+<br/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&duration=3000&pause=1000&color=6CC644&center=true&vCenter=true&width=800&lines=Welcome+Buddy;Puneeth+Reddy+Here+!!!;Hope+you+will+takeaway+something+...)](https://git.io/typing-svg)
 
 
 
