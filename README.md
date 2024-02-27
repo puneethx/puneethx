@@ -7,7 +7,7 @@
 
 
 # 💫 About Me:
-🔭 I’m currently working as Machine Learning Intern @Proglint Software Solutions,<br>🍁Pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>🌱I'm currently learning Machine Learning, <br>👯You can contact me at @puneethreddyt2004@gmail.com
+🔭 I’m currently working as Deep Learning Intern @Proglint Software Solutions,<br>🍁Pursuing B.Tech in CS Engineering at Vellore Institute of Technology,<br>🌱I'm currently learning Machine Learning, <br>👯You can contact me at @puneethreddyt2004@gmail.com
  
 
 # 💻 Tech Stack:
