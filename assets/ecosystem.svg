@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" fill="none"><rect width="1200" height="360" fill="#ffffff"/>
+    <text x="0" y="22" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#6e7681">HOW THE UNIVERSE FITS TOGETHER  ──  from a keyword to a shipped agent</text>
+    
+        <rect x="0" y="40" width="200" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="12" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">LANG</text>
+        <text x="12" y="86" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">PYTHON</text>
+        
+        <rect x="0" y="120" width="200" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="12" y="142" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">LANG</text>
+        <text x="12" y="166" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">JAVA</text>
+        
+        <rect x="0" y="200" width="200" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="12" y="222" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">LANG</text>
+        <text x="12" y="246" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">TYPESCRIPT</text>
+        
+        <rect x="0" y="280" width="200" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="12" y="302" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">QUERY</text>
+        <text x="12" y="326" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">ABAP  ·  OPEN SQL</text>
+        
+        <rect x="360" y="40" width="220" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="372" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">FRAMEWORK</text>
+        <text x="372" y="86" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">LANGGRAPH</text>
+        
+        <rect x="360" y="120" width="220" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="372" y="142" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">PATTERN</text>
+        <text x="372" y="166" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">LANGCHAIN  ·  ReAct</text>
+        
+        <rect x="360" y="200" width="220" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="372" y="222" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">PROTOCOL</text>
+        <text x="372" y="246" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">MCP  ·  TOOLS</text>
+        
+        <rect x="360" y="280" width="220" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="372" y="302" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">RETRIEVAL</text>
+        <text x="372" y="326" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">HYBRID RAG + RRF</text>
+        
+        <rect x="740" y="40" width="240" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="752" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">RUNTIME</text>
+        <text x="752" y="86" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">SAP BTP  ·  CAP</text>
+        
+        <rect x="740" y="120" width="240" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="752" y="142" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">RUNTIME</text>
+        <text x="752" y="166" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">JOULE STUDIO</text>
+        
+        <rect x="740" y="200" width="240" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="752" y="222" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">TRANSPORT</text>
+        <text x="752" y="246" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">FASTAPI  ·  SSE</text>
+        
+        <rect x="740" y="280" width="240" height="60" fill="none" stroke="#0d1117" stroke-width="1"/>
+        <text x="752" y="302" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">SURFACE</text>
+        <text x="752" y="326" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="15" fill="#0d1117">SAPUI5  /  FIORI</text>
+        
+    <rect x="1020" y="40" width="180" height="300" fill="none" stroke="#0d1117" stroke-width="1"/>
+    <text x="1032" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">OUTCOMES</text>
+    <text x="1032" y="98" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="13" fill="#0d1117">SAPPHIRE 2026</text>
+    <text x="1032" y="118" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">live on stage</text>
+    <text x="1032" y="152" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="13" fill="#0d1117">3× ACCELERATOR</text>
+    <text x="1032" y="170" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="13" fill="#0d1117">HUB PUBLICATIONS</text>
+    <text x="1032" y="190" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">by SAP themselves</text>
+    <text x="1032" y="224" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="13" fill="#0d1117">120 ROBOTS</text>
+    <text x="1032" y="244" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">orchestrated</text>
+    <text x="1032" y="278" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="13" fill="#1a7f37">ZERO</text>
+    <text x="1032" y="296" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">ungrounded answers</text>
+    <text x="1032" y="316" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">shipped</text>
+    <line x1="200" y1="70" x2="360" y2="70" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="580" y1="70" x2="740" y2="70" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="980" y1="70" x2="1020" y2="70" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="200" y1="150" x2="360" y2="150" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="580" y1="150" x2="740" y2="150" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="980" y1="150" x2="1020" y2="150" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="200" y1="230" x2="360" y2="230" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="580" y1="230" x2="740" y2="230" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="980" y1="230" x2="1020" y2="230" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="200" y1="310" x2="360" y2="310" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="580" y1="310" x2="740" y2="310" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/><line x1="980" y1="310" x2="1020" y2="310" stroke="#6e7681" stroke-width="1" stroke-dasharray="2 3"/>
+    </svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" width="1200" height="200" fill="none"><rect width="1200" height="200" fill="#0d1117"/>
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#ffffff" stroke-width="1"/>
+
+    <text x="0" y="34" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#8b949e">CURRENT STATUS</text>
+    <g font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="13" fill="#ffffff">
+      <text x="0" y="68"><tspan fill="#6CC644">◉</tspan>  BUILDING · DRA humanoid agent · Joule Studio · Infosys R&amp;D</text>
+      <text x="0" y="92"><tspan fill="#6CC644">◉</tspan>  LEARNING · deeper distributed systems, cost + eval harnesses for agents</text>
+      <text x="0" y="116"><tspan fill="#6CC644">◉</tspan>  OPEN TO · agentic AI conversations, forward-deployed roles, R&amp;D collabs</text>
+    </g>
+
+    <g transform="translate(720, 40)">
+      <text x="0" y="14" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#8b949e">CONNECT</text>
+      <g font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="12" fill="#ffffff">
+        <text x="0" y="44">◇  puneeth-reddy.vercel.app</text>
+        <text x="0" y="68">◇  linkedin.com/in/puneeth-reddy-75069824b</text>
+        <text x="0" y="92">◇  puneethreddyt2004@gmail.com</text>
+        <text x="0" y="116">◇  github.com/puneethx  ·  instagram.com/puneethx</text>
+      </g>
+    </g>
+
+    <line x1="0" y1="160" x2="1200" y2="160" stroke="#ffffff" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="0" y="184" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" fill="#8b949e">
+      <tspan fill="#6CC644">&gt;</tspan> "the interesting part isn't that it chats  ──  it's that it acts, grounded and auditable."
+    </text>
+    <text x="1200" y="184" text-anchor="end" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="2" fill="#8b949e">END · TRANSMISSION</text>
+    </svg>

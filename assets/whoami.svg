@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" fill="none"><rect width="1200" height="320" fill="#ffffff"/>
+    <!-- left panel: bio -->
+    <text x="0" y="20" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#6e7681">BIO ── DECLASSIFIED</text>
+    <g font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="14" fill="#0d1117">
+      <text x="0" y="60">I'm <tspan font-weight="700">Puneeth</tspan> — an AI Application Engineer at Infosys, Bangalore.</text>
+      <text x="0" y="84">I ship production agentic AI for enterprise SAP workloads —</text>
+      <text x="0" y="108">multi-agent orchestration, grounded retrieval, and the kind of guardrails</text>
+      <text x="0" y="132">that make a leader trust an LLM near a real workflow.</text>
+
+      <text x="0" y="176">Three of my Joule agents were published to SAP's Business Accelerator</text>
+      <text x="0" y="200">Hub — by SAP themselves. One of them ran <tspan font-weight="700">live at SAPPHIRE 2026</tspan></text>
+      <text x="0" y="224">driving a fleet of <tspan font-weight="700" fill="#1a7f37">120 autonomous mobile robots</tspan> on stage.</text>
+
+      <text x="0" y="268">These days I'm teaching a humanoid how to pick, place, and inspect.</text>
+      <text x="0" y="292" fill="#6e7681">Because if your agent can't manipulate atoms, it's just a chatbot.</text>
+    </g>
+
+    <!-- right panel: stat cards -->
+    <g transform="translate(720, 0)">
+      <text x="0" y="20" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" letter-spacing="3" fill="#6e7681">VITALS ── LIVE</text>
+
+      <!-- stat 1 -->
+      <rect x="0"   y="40" width="220" height="90" fill="none" stroke="#0d1117" stroke-width="1"/>
+      <text x="14" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">AGENTS IN PROD</text>
+      <text x="14" y="112" font-family="ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace" font-weight="800" font-size="52" fill="#0d1117">03<tspan fill="#1a7f37">+</tspan></text>
+
+      <!-- stat 2 -->
+      <rect x="240" y="40" width="220" height="90" fill="none" stroke="#0d1117" stroke-width="1"/>
+      <text x="254" y="62" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">ROBOTS ORCHESTRATED</text>
+      <text x="254" y="112" font-family="ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace" font-weight="800" font-size="52" fill="#0d1117">120</text>
+
+      <!-- stat 3 -->
+      <rect x="0"   y="150" width="220" height="90" fill="none" stroke="#0d1117" stroke-width="1"/>
+      <text x="14" y="172" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">HACKATHONS WON</text>
+      <text x="14" y="222" font-family="ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace" font-weight="800" font-size="52" fill="#0d1117">04</text>
+
+      <!-- stat 4 -->
+      <rect x="240" y="150" width="220" height="90" fill="none" stroke="#0d1117" stroke-width="1"/>
+      <text x="254" y="172" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">CGPA @ VIT-AP</text>
+      <text x="254" y="222" font-family="ui-monospace,'JetBrains Mono',Menlo,Consolas,monospace" font-weight="800" font-size="52" fill="#0d1117">8.06</text>
+
+      <!-- stat 5: wide -->
+      <rect x="0"   y="260" width="460" height="52" fill="none" stroke="#0d1117" stroke-width="1"/>
+      <text x="14" y="282" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" letter-spacing="2" fill="#6e7681">FEATURED AT</text>
+      <text x="14" y="302" font-family="ui-monospace,'JetBrains Mono','Fira Code',Menlo,Consolas,monospace" font-weight="700" font-size="14" fill="#0d1117">SAP SAPPHIRE 2026 · SAP BUSINESS ACCELERATOR HUB</text>
+    </g>
+    </svg>
