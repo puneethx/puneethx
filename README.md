@@ -1,470 +1,235 @@
+<div align="center">
 
-<div  align="center">
+```
+    ┌─────────────────────────────────────────────────────────────────┐
+    │  $ ./puneeth --introduce --mode=agentic                          │
+    │  [boot] loading persona...                              [  OK  ] │
+    │  [boot] warming up LangGraph runtime...                 [  OK  ] │
+    │  [boot] connecting to SAP BTP...                        [  OK  ] │
+    │  [boot] 3 agents online · 1 humanoid on standby         [ LIVE ] │
+    └─────────────────────────────────────────────────────────────────┘
+```
 
-  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=6CC644&center=true&vCenter=true&multiline=true&width=900&height=110&lines=%3E+I+don't+build+chatbots.;%3E+I+build+agents+that+move+robots%2C+query+SAP%2C+and+refuse+to+hallucinate.;%3E+Sometimes+they+show+up+at+SAPPHIRE.)](https://git.io/typing-svg)
 
-<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/d48893bd-0757-481c-8d7e-ba3e163feae7" />
-
-  
-
-<br/><br/>
-
-  
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2800&pause=800&color=6CC644&center=true&vCenter=true&multiline=true&width=900&height=140&lines=Hi%2C+I'm+Puneeth+Reddy+%F0%9F%91%8B;AI+Application+Engineer+%40+Infosys;I+build+multi-agent+systems+that+ship+to+production;LangGraph+%C2%B7+RAG+%C2%B7+SAP+Joule+%C2%B7+MCP+%C2%B7+FastAPI)](https://git.io/typing-svg)
-
-  
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-puneeth--reddy.vercel.app-6CC644?style=for-the-badge&logo=vercel&logoColor=white)](https://puneeth-reddy.vercel.app/)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Puneeth_Reddy-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
-
-[![Gmail](https://img.shields.io/badge/Email-puneethreddyt2004-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:puneethreddyt2004@gmail.com)
-
-[![Profile Views](https://komarev.com/ghpvc/?username=puneethx&style=for-the-badge&color=6CC644)](https://github.com/puneethx)
-
-  
+<img src="https://readme-jokes.vercel.app/api?theme=material-palenight&hideBorder=true" alt="joke of the day"/>
 
 </div>
 
-  
-
 ---
 
-  
+## ▲ ` cat ~/.identity `
 
-## 🧠 whoami
-
-  
-
-```yaml
-
-name: T Puneeth Reddy
-
-role: AI Application Engineer · Forward Deployed Engineer
-
-company: Infosys · Bangalore, India
-
-focus: Agentic AI · Multi-Agent Orchestration · Grounded RAG
-
-shipping: Production Joule + LangGraph agents on SAP BTP
-
-featured: SAP SAPPHIRE 2026 · SAP Business Accelerator Hub (3 agents published by SAP)
-
-mission: Take agents from a notebook idea → to real users → to measurable outcomes
-
+```jsonc
+{
+  "name": "T Puneeth Reddy",
+  "role": "AI Application Engineer · Forward Deployed Engineer",
+  "org":  "Infosys · Bangalore",
+  "obsession": "agents that DO things, not just chat",
+  "stack": ["LangGraph", "LangChain", "MCP", "Joule Studio", "SAP BTP", "FastAPI"],
+  "shipped_to_production": true,
+  "featured_at": "SAP SAPPHIRE 2026",
+  "published_by_SAP_itself": 3,   // agents on SAP Business Accelerator Hub
+  "currently_teaching": ["a humanoid robot", "how to pick, place, and inspect"],
+  "hallucination_policy": "refuse if not grounded"
+}
 ```
 
-  
+---
 
-> 🤖 I build agents that **do things**, not just chat. Retrieval-grounded, tool-using, multi-step, audited — and running against real enterprise SAP workloads.
+## ⌘ ` puneeth.run("who are you?") `
 
-  
+<pre>
+<b><span style="color:#6CC644">▸ Thought</span></b>   The user wants a two-line pitch. Skip the resume. Lead with the flex.
+<b><span style="color:#f0883e">▸ Action</span></b>   introduce(mode="agentic", brag_level="moderate")
+<b><span style="color:#58a6ff">▸ Observation</span></b>
+
+   I'm Puneeth — I build multi-agent systems for enterprise SAP workloads
+   at Infosys. Three of my agents were published to SAP's Accelerator Hub
+   by SAP themselves. One of them showed up at SAPPHIRE 2026 driving a
+   fleet of 120 autonomous robots on stage. My favourite hobby is arguing
+   with LLMs until they stop hallucinating.
+
+<b><span style="color:#6CC644">▸ Thought</span></b>   Good. Now stop before it turns into a bio.
+<b><span style="color:#f0883e">▸ Action</span></b>   FINISH
+</pre>
 
 ---
 
-  
+## ⚡ ` /tools ` — what I reach for
 
-## 🕸️ The Agent Graph I Ship Every Day
-
-  
-
-Because a screenshot beats a bullet list. This is roughly what my day looks like:
-
-  
-
-```mermaid
-
-%%{init: {'theme':'dark', 'themeVariables': { 'primaryColor':'#0d1117','primaryTextColor':'#6CC644','lineColor':'#6CC644','fontFamily':'JetBrains Mono'}}}%%
-
-flowchart LR
-
-U([👤 User<br/>plain english]) --> S{{🧭 Supervisor Agent<br/>classify + route}}
-
-  
-
-S -->|knowledge| K[📚 Knowledge Agent<br/>Hybrid RAG · BM25+Cosine+RRF]
-
-S -->|data| D[📊 Data Agent<br/>OData V4 · live $metadata]
-
-S -->|exception| E[⚠️ Exception Agent<br/>Runbook + evidence]
-
-  
-
-K --> SY[[🧬 Synthesis Agent<br/>compose + cite]]
-
-D --> SY
-
-E --> SY
-
-  
-
-SY --> G{{🛡️ Guardrail<br/>faithfulness ≥ threshold?}}
-
-G -->|✅ grounded| A([💬 Answer + citations])
-
-G -->|❌ ungrounded| R([🚫 Refuse])
-
-  
-
-classDef agent fill:#161b22,stroke:#6CC644,stroke-width:1.5px,color:#c9d1d9;
-
-classDef gate fill:#0d1117,stroke:#f0883e,stroke-width:1.5px,color:#f0883e;
-
-classDef io fill:#0d1117,stroke:#58a6ff,stroke-width:1.5px,color:#58a6ff;
-
-class S,K,D,E,SY agent;
-
-class G gate;
-
-class U,A,R io;
-
+```bash
+$ puneeth --list-tools --category=agentic
 ```
 
-  
-
-That's **SAP Enterprise Copilot** — 5 agents on LangGraph, hybrid retrieval, deterministic grounding. No hallucinated answers get out the door.
-
-  
+| tool                     | what I use it for                                                              |
+|--------------------------|--------------------------------------------------------------------------------|
+| `LangGraph`              | Multi-agent state graphs · fan-out/fan-in · shared typed state                 |
+| `LangChain`              | ReAct loops · tool wiring · prompt composition                                 |
+| `MCP` (Model Context Protocol) | Standardized tool exposure — LLM ↔ any data source without glue code     |
+| `Hybrid RAG (BM25 + Cosine + RRF)` | Retrieval that survives real technical vocabulary (t-codes, tables)  |
+| `OKF` (Open Knowledge Format)      | YAML-typed runbooks · precise structured lookups (not fuzzy vectors) |
+| `Joule Studio`           | Enterprise-native agents deployed on SAP BTP                                   |
+| `SAP CAP + OData V4`     | Live schema-aware data agents · read-only guardrails at the service layer      |
+| `FastAPI + SSE`          | Streaming agent tokens straight into a Fiori UI                                |
+| `Faithfulness guardrail` | Deterministic grounding check — no citation, no answer                         |
 
 ---
 
-  
-
-## 🚀 Currently Shipping
-
-  
+## 🛰️ ` /agents ` — currently in production
 
 <table>
-
 <tr>
+<td width="55%" valign="top">
 
-<td width="50%" valign="top">
+<b>⚙️ MAO Warehouse Fulfillment Agent</b>
+<sub><code>🔴 LIVE · Joule · SAP BTP · SAPPHIRE 2026</code></sub>
 
-  
+The brain behind a fleet of <b>120 autonomous mobile robots</b>. When a robot
+hits an empty-bin exception, my agents diagnose it, find the next valid
+bin from EWM, reroute or trigger putaway from reserve storage, and write
+the fix back to HANA — <i>no human ever logs into SAP</i>.
 
-### 🤖 SAP MAO Warehouse Agent
-
-**Live at SAPPHIRE 2026 · Published on SAP Accelerator Hub**
-
-  
-
-A multi-agent Joule system that acts as **the brain behind a fleet of 120 autonomous robots**. When a robot hits an empty-bin exception, my agents:
-
-  
-
-- 🔎 Diagnose the exception in real time
-
-- 📦 Locate the next valid bin via EWM
-
-- 🚦 Reroute the robot or trigger putaway from reserve storage
-
-- ✍️ Write the resolution back to HANA — no human logs into SAP
-
-  
-
-`Supervisor` → `Inventory` → `Logistics` agents · Joule Studio · SAP BTP
-
-  
+Supervisor → Inventory → Logistics. Ran live on stage at SAPPHIRE.
 
 </td>
+<td width="45%" valign="top">
 
-<td width="50%" valign="top">
+<b>🦾 DRA · Daksha Humanoid Agent</b>
+<sub><code>🟡 IN DEV · Joule · Humanoid Robotics</code></sub>
 
-  
+Successor to SAPPHIRE. Same agentic backbone, now driving a <b>humanoid</b>
+through pick-and-place, navigation, and bin inspection — every action
+kicked off by a plain-english prompt.
 
-### 🦾 DRA — Humanoid Robot Agent
-
-**Under active development · Infosys R&D**
-
-  
-
-The follow-up to SAPPHIRE. Same agentic backbone, but now driving a **humanoid** through pick-and-place, navigation, and inspection tasks — all via plain-english prompts.
-
-  
-
-- 🧭 Supervisor classifies task → routes to specialist
-
-- 👁️ Vision system feeds the inspection agent
-
-- 🔁 Failure-recovery loop being built out now
-
-  
-
-Because manipulating physical space is the ultimate agentic benchmark.
-
-  
+Because if your agent can't manipulate atoms, it's just a chatbot with
+better PR.
 
 </td>
-
 </tr>
-
 <tr>
+<td width="55%" valign="top">
 
-<td width="50%" valign="top">
+<b>🔐 SAP Security Audit Agent</b>
+<sub><code>🟢 SHIPPED · Joule · SAP Accelerator Hub</code></sub>
 
-  
-
-### 🔐 SAP Security Audit Agent
-
-**Published on SAP Accelerator Hub**
-
-  
-
-Auditors ask in plain english — *"which roles allow creating a sales order?"* — the agent generates **ABAP Open SQL** against `AGR_USERS` / `AGR_1251` / `USR02`, executes read-only via OData on BTP, and streams a clean table into the chat. Hours → seconds.
-
-  
+Auditors ask <i>"which roles allow creating a sales order?"</i>. The agent
+generates <b>ABAP Open SQL</b> against <code>AGR_USERS</code> /
+<code>AGR_1251</code> / <code>USR02</code>, executes read-only via OData on
+BTP, streams a clean table into the chat. Hours → seconds.
 
 </td>
+<td width="45%" valign="top">
 
-<td width="50%" valign="top">
+<b>🧬 SAP Enterprise Copilot</b>
+<sub><code>🟢 SHIPPED · LangGraph · Python</code></sub>
 
-  
+Five agents. Hybrid retrieval. Deterministic grounding guardrail.
+<b>Zero</b> ungrounded answers get out the door — every sentence must cite
+its source or it doesn't ship.
 
-### 🔍 SAP Search + Troubleshooter Agents
-
-**Published on SAP Accelerator Hub**
-
-  
-
-Two Joule agents (+ a Python/ReAct twin) that **query-expand**, scrape live SAP Help / Notes / Community, and synthesize structured answers with citations. The Python version runs a ReAct loop with three specialized Tavily tools + GPT-4.1 via SAP AI Core.
-
-  
+My favourite thing I've built.
 
 </td>
-
 </tr>
+<tr>
+<td width="55%" valign="top">
 
+<b>🔎 SAP Search + Troubleshooter Agents</b>
+<sub><code>🟢 SHIPPED · Joule + Python/ReAct twin · SAP Accelerator Hub</code></sub>
+
+Query-expand → scrape SAP Help / Notes / Community live → synthesize a
+structured answer with references. Python version runs a ReAct loop
+with 3 specialized Tavily tools + GPT-4.1 via SAP AI Core.
+
+</td>
+<td width="45%" valign="top">
+
+<b>📦 Northwind MCP Data Agent</b>
+<sub><code>🟢 POC · MCP · LangChain</code></sub>
+
+Natural-language → MCP tool call → OData → formatted answer.
+Built specifically to <i>deeply</i> understand MCP internals before betting
+production on it.
+
+</td>
+</tr>
 </table>
 
-  
+---
+
+## 🧪 ` /demo ` — a real prompt from Enterprise Copilot
+
+<pre>
+<b><span style="color:#58a6ff">user</span></b>   "Why is bin A-12-03 showing empty when PO-5003 says stock arrived?"
+
+<b><span style="color:#6CC644">supervisor</span></b>    classify → exception · route → [exception_agent, data_agent]
+<b><span style="color:#f0883e">data_agent</span></b>    OData $metadata read → generated OData V4 query → 3 rows
+<b><span style="color:#f0883e">exception</span></b>     OKF.lookup("BIN_MISMATCH") → runbook (5 ordered steps)
+<b><span style="color:#f0883e">exception</span></b>     calls data_agent again → cross-checks goods receipt in MM
+<b><span style="color:#a371f7">synthesis</span></b>     compose answer with inline [S1] [S2] [DATA] citations
+<b><span style="color:#ff6b6b">guardrail</span></b>     faithfulness = 0.94 · ≥ threshold · ✅ deliver
+
+<b><span style="color:#c9d1d9">answer</span></b>        "PO-5003 arrived at dock D-02 but the Goods Receipt was
+              never posted [DATA]. Per BIN_MISMATCH runbook [S1], the
+              bin will show empty until GR is posted. Post GR via MIGO
+              or trigger the automated action below…"
+</pre>
+
+That's the whole point: **an answer, grounded and auditable — not a search result.**
 
 ---
 
-  
-
-## 🧰 Tech I Actually Use
-
-  
-
-<details open>
-
-<summary><b>🤖 Agentic AI & GenAI</b> — where I spend most of my time</summary>
-
-  
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-
-![LangGraph](https://img.shields.io/badge/LangGraph-FF6F61?style=flat&logo=langgraph&logoColor=white)
-
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat&logo=anthropic&logoColor=white)
-
-![OpenAI](https://img.shields.io/badge/GPT--4.1-412991?style=flat&logo=openai&logoColor=white)
-
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=anthropic&logoColor=white)
-
-![RAG](https://img.shields.io/badge/Hybrid_RAG-6CC644?style=flat&logo=databricks&logoColor=white)
-
-![ReAct](https://img.shields.io/badge/ReAct_Agents-FF9E0F?style=flat&logo=react&logoColor=white)
-
-![Tavily](https://img.shields.io/badge/Tavily-1E90FF?style=flat&logoColor=white)
-
-  
-
-</details>
-
-  
-
-<details open>
-
-<summary><b>⚙️ Backend, APIs & Runtime</b></summary>
-
-  
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-
-![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat&logo=node.js&logoColor=white)
-
-![Express](https://img.shields.io/badge/Express.js-404d59?style=flat&logo=express&logoColor=61DAFB)
-
-![SSE](https://img.shields.io/badge/SSE_Streaming-FF4500?style=flat&logoColor=white)
-
-![REST](https://img.shields.io/badge/REST_APIs-25A162?style=flat&logo=fastapi&logoColor=white)
-
-  
-
-</details>
-
-  
-
-<details open>
-
-<summary><b>🏢 SAP Stack</b> — where the agents run</summary>
-
-  
-
-![SAP BTP](https://img.shields.io/badge/SAP_BTP-0FAAFF?style=flat&logo=sap&logoColor=white)
-
-![Joule Studio](https://img.shields.io/badge/Joule_Studio-1D7CBF?style=flat&logo=sap&logoColor=white)
-
-![SAP CAP](https://img.shields.io/badge/SAP_CAP_(CAPM)-0057A4?style=flat&logo=sap&logoColor=white)
-
-![SAP AI Core](https://img.shields.io/badge/SAP_AI_Core-0FAAFF?style=flat&logo=sap&logoColor=white)
-
-![SAPUI5](https://img.shields.io/badge/SAPUI5/Fiori-0FAAFF?style=flat&logo=sap&logoColor=white)
-
-![S/4HANA](https://img.shields.io/badge/S%2F4HANA-0FAAFF?style=flat&logo=sap&logoColor=white)
-
-![EWM](https://img.shields.io/badge/SAP_EWM-0057A4?style=flat&logo=sap&logoColor=white)
-
-![OData V4](https://img.shields.io/badge/OData_V4-CE0000?style=flat&logoColor=white)
-
-  
-
-</details>
-
-  
-
-<details>
-
-<summary><b>🧪 ML / Computer Vision</b> — where I started</summary>
-
-  
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-
-![Lightning](https://img.shields.io/badge/PyTorch_Lightning-792EE5?style=flat&logo=pytorchlightning&logoColor=white)
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-
-![YOLO](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat&logo=yolo&logoColor=black)
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-
-  
-
-</details>
-
-  
-
-<details>
-
-<summary><b>🎨 Frontend & Everything Else</b></summary>
-
-  
-
-![React](https://img.shields.io/badge/React-20232a?style=flat&logo=react&logoColor=61DAFB)
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-
-![R3F](https://img.shields.io/badge/React_Three_Fiber-000000?style=flat&logo=three.js&logoColor=white)
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
-
-![Tailwind](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat&logo=mongodb&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white)
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
-
-  
-
-</details>
-
-  
+## 🏆 ` /wall-of-wins `
+
+```
+[2026] 🎤 SAPPHIRE 2026 · agent I contributed to demoed live on stage
+[2026] 📦 3× Joule Agents published to SAP Business Accelerator Hub — by SAP
+[2025] 🎓 B.Tech CS · VIT-AP · CGPA 8.06
+[2024] 🚀 Joined Infosys straight after grad → shipped to prod in year one
+[2024] 🥈 1st Runner-up · SheCodes by WTM Reva (Llava-8B + R3F adaptive learning)
+[2024] 🥈 1st Runner-up · HackQuest · VIT-AP (YOLO + OCR traffic AI)
+[2024] 🥈 1st Runner-up · FrameX Web Hackathon · CSI VIT-AP
+[2023] 🥇 Winner · Proglint CV 2K23 National Hackathon · Alliance University
+[----] 📜 Claude Certified Architect — Foundations
+```
 
 ---
 
-  
+## 📈 ` /telemetry `
 
-## 🏆 Wall of Wins
+<div align="center">
 
-  
-
-- 🎤 **SAP SAPPHIRE 2026** — contributed to an agent showcased live at SAP's biggest global conference
-
-- 📦 **3 Joule Agents published to SAP Business Accelerator Hub — by SAP themselves**
-
-- 🥇 **Winner** · Proglint CV 2K23 National Hackathon (Alliance University, Bangalore)
-
-- 🥈 **1st Runner-up** · SheCodes by WTM Reva — Llava-8B + R3F adaptive learning
-
-- 🥈 **1st Runner-up** · HackQuest by I-Quest (VIT-AP) — YOLO + OCR traffic AI
-
-- 🥈 **1st Runner-up** · FrameX Web Hackathon (CSI, VIT-AP)
-
-- 📜 **Claude Certified Architect — Foundations**
-
-  
-
----
-
-  
-
-## 📊 GitHub Stats
-
-  
-
-<div  align="center">
-
-  
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=puneethx&theme=material-palenight&hide_border=true&include_all_commits=false&count_private=false" />
-
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=puneethx&theme=material-palenight&hide_border=true" />
-
-  
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=puneethx&theme=material-palenight&hide_border=true&include_all_commits=false&count_private=false" />
+<img height="165em" src="https://github-readme-streak-stats.herokuapp.com/?user=puneethx&theme=material-palenight&hide_border=true" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=puneethx&theme=material-palenight&hide_border=true&include_all_commits=false&count_private=false&layout=compact" />
 
-  
-
 <img src="https://github-profile-trophy.vercel.app/?username=puneethx&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" />
 
-  
-
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake" />
-
-  
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake eating my contributions"/>
 
 </div>
 
-  
-
 ---
 
-  
+## 📡 ` /open-a-channel `
 
-## 🌐 Let's Talk
+<div align="center">
 
-  
+```python
+# I'm always up for talking agents, retrieval, grounding,
+# or "how do we actually put this in front of real users"
+```
 
-<div  align="center">
+[![Portfolio](https://img.shields.io/badge/▲_puneeth--reddy.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://puneeth-reddy.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
+[![Gmail](https://img.shields.io/badge/puneethreddyt2004@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:puneethreddyt2004@gmail.com)
+[![Instagram](https://img.shields.io/badge/@puneethx-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/puneethx)
+[![Views](https://komarev.com/ghpvc/?username=puneethx&style=for-the-badge&color=6CC644&label=humans+observed)](https://github.com/puneethx)
 
-  
+<br/>
 
-If you're building agents, shipping GenAI to real users, or figuring out how to keep LLMs honest with retrieval and guardrails — I'd love to trade notes.
-
-  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/puneeth-reddy-75069824b/)
-
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/puneethx)
-
-[![Gmail](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:puneethreddyt2004@gmail.com)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-6CC644?style=for-the-badge&logo=vercel&logoColor=white)](https://puneeth-reddy.vercel.app/)
-
-  
-
-<sub>*"The interesting part isn't that it chats — it's that it acts, grounded and auditable."*</sub>
-
-  
+<sub><code>$ end of transcript · agent still running · next prompt?</code></sub>
 
 </div>
